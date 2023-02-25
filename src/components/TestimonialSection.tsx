@@ -45,7 +45,7 @@ const testimonials = [
 		fullname: "Gavin Harris",
 		imageUrl: "https://randomuser.me/api/portraits/men/34.jpg",
 		testimonial:
-			"La rapidez en la que he hecho mis compras es inigualable. Desde el sofá de mi casa puedo comprar de forma inteligente, ahorrando lo más posible y recibir mis productos sin tener que salir, simplemente increible",
+			"La rapidez en la que he hecho mis compras es inigualable. Desde el sofá de mi casa puedo comprar de forma inteligente, ahorrando lo más posible y recibir mis productos sin tener que salir, simplemente increíble",
 	},
 ];
 

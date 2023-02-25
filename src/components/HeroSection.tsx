@@ -5,7 +5,7 @@ export default function HeroSection() {
 		<section className="max-w-3xl space-y-6 mx-auto  md:text-center py-32">
 			<div className="space-y-4">
 				<H1 variant="gradient">
-					Obten tus compras en la puerta de tu casa al mejor precio
+					Obtén tus compras en la puerta de tu casa al mejor precio
 				</H1>
 
 				<Paragraph size="large">
@@ -26,7 +26,7 @@ export default function HeroSection() {
 					className="block rounded-full px-6 py-3 border font-medium border-blue-200 text-blue-500 hover:bg-blue-50"
 					href="#feature"
 				>
-					Caracteristicas
+					Características
 				</a>
 			</div>
 		</section>
