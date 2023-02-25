@@ -1,13 +1,13 @@
-import { H2, Paragraph } from "./Typography";
+import { H1, Paragraph } from "./Typography";
 
 export default function HeroSection() {
 	return (
 		<section className="max-w-3xl space-y-6 mx-auto  md:text-center py-32">
 			<div className="space-y-4">
-				<H2>
+				<H1>
 					Obten tus compras en la puerta de tu casa al mejor{" "}
 					<span className="text-blue-500"> precio</span>
-				</H2>
+				</H1>
 
 				<Paragraph size="large">
 					Contamos con tus supermercados y tiendas favoritas, para que
