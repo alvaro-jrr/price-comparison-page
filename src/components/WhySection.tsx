@@ -34,6 +34,7 @@ export default function WhySection() {
 				<img
 					className="h-auto w-full object-contain max-h-[75vh]"
 					src="/assets/undraw_shopping.svg"
+					alt="Persona comprando productos a través del telefono"
 				/>
 			</div>
 		</section>

@@ -21,6 +21,7 @@ function Testimonial({
 					height="40"
 					width="40"
 					src={imageUrl}
+					alt={`Foto de perfil de ${fullname}`}
 				/>
 
 				<figcaption className="space-y-1">
@@ -75,6 +76,7 @@ export default function TestimonialSection() {
 				<img
 					className="h-auto w-full object-contain max-h-[75vh]"
 					src="/assets/undraw_with_love.svg"
+					alt="Persona sosteniendo un globo en forma de corazón"
 				/>
 			</div>
 		</section>
