@@ -1,6 +1,7 @@
 ---
 import FeatureSection from "../components/FeatureSection";
 import HeroSection from "../components/HeroSection";
+import NavBar from "../components/NavBar";
 import TestimonialSection from "../components/TestimonialSection";
 import WhySection from "../components/WhySection";
 ---
@@ -18,15 +19,7 @@ import WhySection from "../components/WhySection";
 	</head>
 	<body>
 		<div class="grid grid-rows-[auto_1fr] min-h-screen">
-			<header class="px-[5vw] py-8">
-				<div class="flex gap-x-2">
-					<img
-						alt="Logo de ShopWisely"
-						src="/assets/logo.svg"
-						class="h-10"
-					/>
-				</div>
-			</header>
+			<NavBar client:load />
 
 			<main class="mx-[10vw]">
 				<HeroSection />
