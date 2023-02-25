@@ -14,16 +14,16 @@ export default function HeroSection() {
 				</Paragraph>
 			</div>
 
-			<div className="flex gap-x-4 md:justify-center">
+			<div className="flex flex-col gap-y-2 gap-x-4 md:flex-row md:justify-center">
 				<a
-					className="block rounded-full px-6 py-3 bg-blue-500 font-medium text-white transition-colors hover:bg-blue-600"
+					className="w-fit block rounded-full px-6 py-3 bg-blue-500 font-medium text-white transition-colors hover:bg-blue-600"
 					href="#why"
 				>
 					Conocer más
 				</a>
 
 				<a
-					className="block rounded-full px-6 py-3 border font-medium border-blue-200 text-blue-500 hover:bg-blue-50"
+					className="block w-fit rounded-full px-6 py-3 border font-medium border-blue-200 text-blue-500 hover:bg-blue-50"
 					href="#feature"
 				>
 					Características
