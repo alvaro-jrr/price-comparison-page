@@ -5,6 +5,7 @@ const LINKS = [
 	{ name: "¿Por qué?", to: "#why" },
 	{ name: "Características", to: "#feature" },
 	{ name: "Testimonios", to: "#testimonials" },
+	{ name: "Contacto", to: "#contact" },
 ];
 
 function MobileMenu() {
@@ -49,7 +50,7 @@ function MobileMenu() {
 
 export default function NavBar() {
 	return (
-		<header className="px-[5vw] sticky top-0 bg-white z-10 py-6 md:py-8">
+		<header className="px-[5vw] sticky top-0 bg-white z-10 py-6 md:py-8 lg:relative">
 			<div className="flex items-center justify-between">
 				<img
 					alt="Logo de ShopWisely"

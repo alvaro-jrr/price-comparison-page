@@ -59,7 +59,7 @@ export default function TestimonialSection() {
 					<H2 id="testimonials">Lo que dicen nuestros usuarios</H2>
 				</div>
 
-				<ul className="flex flex-col gap-y-4">
+				<ul className="flex flex-col items-center gap-y-4">
 					{testimonials.map((testimonial) => (
 						<li key={testimonial.fullname}>
 							<Testimonial
