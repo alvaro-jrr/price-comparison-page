@@ -4,7 +4,7 @@ export default function WhySection() {
 	return (
 		<section className="relative grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-8 mx-auto max-w-7xl h-auto lg:min-h-[40rem]">
 			<div className="col-span-full space-y-6 pt-6 lg:col-start-1 lg:row-start-1 lg:flex lg:h-full lg:flex-col lg:col-span-5">
-				<H2>¿Por qué ShopWisely?</H2>
+				<H2 id="why">¿Por qué ShopWisely?</H2>
 
 				<div className="space-y-4">
 					<Paragraph>

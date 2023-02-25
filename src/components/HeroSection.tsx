@@ -15,12 +15,19 @@ export default function HeroSection() {
 				</Paragraph>
 			</div>
 
-			<div className="flex md:justify-center">
+			<div className="flex gap-x-4 md:justify-center">
 				<a
 					className="block rounded-full px-6 py-3 bg-blue-500 font-medium text-white"
-					href=""
+					href="#why"
 				>
 					Conocer más
+				</a>
+
+				<a
+					className="block rounded-full px-6 py-3 border font-medium border-blue-200 text-blue-500"
+					href="#feature"
+				>
+					Caracteristicas
 				</a>
 			</div>
 		</section>

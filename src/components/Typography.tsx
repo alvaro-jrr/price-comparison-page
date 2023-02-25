@@ -15,17 +15,18 @@ const titleColors = {
 };
 
 interface TitleProps {
+	id?: string;
 	size: keyof typeof fontSize;
 	children: ReactNode;
 	variant?: keyof typeof titleColors;
 	as?: ElementType;
 }
 
-function Title({ as, variant = "primary", size, children }: TitleProps) {
+function Title({ id, as, variant = "primary", size, children }: TitleProps) {
 	const Tag = as ?? size;
 
 	return (
-		<Tag className={`${titleColors[variant]} ${fontSize[size]}`}>
+		<Tag id={id} className={`${titleColors[variant]} ${fontSize[size]}`}>
 			{children}
 		</Tag>
 	);

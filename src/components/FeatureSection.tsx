@@ -54,7 +54,7 @@ export default function FeatureSection() {
 	return (
 		<section className="max-w-6xl mx-auto space-y-8">
 			<div className="max-w-3xl mx-auto lg:text-center space-y-4">
-				<H2>Todo lo que necesitas en un solo lugar</H2>
+				<H2 id="feature">Todo lo que necesitas en un solo lugar</H2>
 
 				<Paragraph size="large">
 					Ofrecemos todos los servicios que necesites para mejorar tu
