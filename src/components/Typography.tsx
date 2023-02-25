@@ -1,11 +1,11 @@
 import type { ElementType, ReactNode } from "react";
 
 const fontSize = {
-	h1: "leading-tight font-bold text-4xl md:text-5xl",
-	h2: "leading-tight font-bold text-3xl md:text-4xl",
-	h3: "text-2xl font-medium md:text-3xl",
-	h4: "text-xl font-medium md:text-2xl",
-	h5: "text-lg font-medium md:text-xl",
+	h1: "leading-tight font-bold text-5xl md:text-6xl",
+	h2: "leading-tight font-bold text-4xl md:text-5xl",
+	h3: "text-3xl font-medium md:text-4xl",
+	h4: "text-2xl font-medium md:text-3xl",
+	h5: "text-xl font-medium md:text-2xl",
 	h6: "text-lg font-medium",
 };
 
@@ -25,9 +25,7 @@ function Title({ as, variant = "primary", size, children }: TitleProps) {
 	const Tag = as ?? size;
 
 	return (
-		<Tag
-			className={`font-heading ${titleColors[variant]} ${fontSize[size]}`}
-		>
+		<Tag className={`${titleColors[variant]} ${fontSize[size]}`}>
 			{children}
 		</Tag>
 	);

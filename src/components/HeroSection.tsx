@@ -1,24 +1,28 @@
+import { H2, Paragraph } from "./Typography";
+
 export default function HeroSection() {
-    return (
-        <section className="max-w-3xl mx-auto text-center py-32">
-            <h2 className="text-gray-900 tracking-tight font-bold text-4xl sm:text-5xl">
-                Obten tus compras en la puerta de tu casa al mejor{" "}
-                <span className="text-blue-500"> precio</span>
-            </h2>
+	return (
+		<section className="max-w-3xl space-y-6 mx-auto  md:text-center py-32">
+			<div className="space-y-4">
+				<H2>
+					Obten tus compras en la puerta de tu casa al mejor{" "}
+					<span className="text-blue-500"> precio</span>
+				</H2>
 
-            <p className="text-lg sm:text-xl mt-4 text-slate-600">
-                Contamos con tus supermercados y tiendas favoritas, para que
-                tengas las mejores ofertas y productos del mercado
-            </p>
+				<Paragraph size="large">
+					Contamos con tus supermercados y tiendas favoritas, para que
+					tengas las mejores ofertas y productos del mercado
+				</Paragraph>
+			</div>
 
-            <div className="flex justify-center mt-6">
-                <a
-                    className="block rounded-full px-6 py-3 bg-blue-500 font-medium text-white"
-                    href=""
-                >
-                    Conocer más
-                </a>
-            </div>
-        </section>
-    );
+			<div className="flex md:justify-center">
+				<a
+					className="block rounded-full px-6 py-3 bg-blue-500 font-medium text-white"
+					href=""
+				>
+					Conocer más
+				</a>
+			</div>
+		</section>
+	);
 }
