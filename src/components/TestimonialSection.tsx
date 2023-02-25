@@ -17,6 +17,7 @@ function Testimonial({
 
 			<div className="flex items-center gap-4">
 				<img
+					loading="lazy"
 					className="rounded-full"
 					height="40"
 					width="40"
@@ -74,6 +75,7 @@ export default function TestimonialSection() {
 
 			<div className="col-span-full flex items-center justify-center lg:col-span-7 lg:col-start-6">
 				<img
+					loading="lazy"
 					className="h-auto w-full object-contain max-h-[75vh]"
 					src="/assets/undraw_with_love.svg"
 					alt="Persona sosteniendo un globo en forma de corazón"
