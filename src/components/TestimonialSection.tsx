@@ -56,7 +56,7 @@ export default function TestimonialSection() {
 				<div className="space-y-4">
 					<p className="text-blue-500 font-medium">Testimonios</p>
 
-					<H2>Lo que dicen nuestros usuarios</H2>
+					<H2 id="testimonials">Lo que dicen nuestros usuarios</H2>
 				</div>
 
 				<ul className="flex flex-col gap-y-4">
