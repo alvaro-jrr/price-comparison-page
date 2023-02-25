@@ -12,6 +12,8 @@ const fontSize = {
 const titleColors = {
 	primary: "text-gray-900",
 	secondary: "text-gray-700",
+	gradient:
+		"bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent",
 };
 
 interface TitleProps {

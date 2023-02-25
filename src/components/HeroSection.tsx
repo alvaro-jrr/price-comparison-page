@@ -4,9 +4,8 @@ export default function HeroSection() {
 	return (
 		<section className="max-w-3xl space-y-6 mx-auto  md:text-center py-32">
 			<div className="space-y-4">
-				<H1>
-					Obten tus compras en la puerta de tu casa al mejor{" "}
-					<span className="text-blue-500"> precio</span>
+				<H1 variant="gradient">
+					Obten tus compras en la puerta de tu casa al mejor precio
 				</H1>
 
 				<Paragraph size="large">
@@ -17,14 +16,14 @@ export default function HeroSection() {
 
 			<div className="flex gap-x-4 md:justify-center">
 				<a
-					className="block rounded-full px-6 py-3 bg-blue-500 font-medium text-white"
+					className="block rounded-full px-6 py-3 bg-blue-500 font-medium text-white transition-colors hover:bg-blue-600"
 					href="#why"
 				>
 					Conocer más
 				</a>
 
 				<a
-					className="block rounded-full px-6 py-3 border font-medium border-blue-200 text-blue-500"
+					className="block rounded-full px-6 py-3 border font-medium border-blue-200 text-blue-500 hover:bg-blue-50"
 					href="#feature"
 				>
 					Caracteristicas

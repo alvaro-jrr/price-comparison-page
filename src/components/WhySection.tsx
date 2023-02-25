@@ -24,7 +24,7 @@ export default function WhySection() {
 
 					<Paragraph>
 						Para brindarte la <em>mejor</em> experiencia, ofrecemos
-						un servicio de entrega rápido que hace llegar los
+						un servicio de entrega rápida que hace llegar los
 						productos que pediste en cuestión de minutos.
 					</Paragraph>
 				</div>
